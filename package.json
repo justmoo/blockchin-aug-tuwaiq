@@ -1,0 +1,19 @@
+{
+  "name": "blockchain-1",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run block.ts",
+    "dev": "bun run block.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "crypto-js": "^4.2.0"
+  }
+}
