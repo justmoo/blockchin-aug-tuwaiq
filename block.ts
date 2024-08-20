@@ -1,6 +1,6 @@
 // task 2: add hash import
 import { SHA256 } from "crypto-js";
-class Block {
+export default class Block {
   height: number;
   previousHash: string;
   data: string;
@@ -28,7 +28,3 @@ class Block {
     ).toString();
   }
 }
-
-const block = new Block(1, "0", "data", Date.now());
-console.log(block);
-// task 2: create a class called Blockchain
