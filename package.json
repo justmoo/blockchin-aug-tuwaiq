@@ -3,7 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "bun run block.ts",
+    "start": "bun run blockchain.ts",
     "dev": "bun run block.ts"
   },
   "devDependencies": {
